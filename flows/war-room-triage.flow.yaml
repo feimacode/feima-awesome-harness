@@ -1,0 +1,96 @@
+name: War Room Triage
+description: Multi-role incident triage: Commander, Recent Changes, App, Infra, Data layers
+stages:
+  - name: Initial Assessment
+    iterations: 1
+    roles:
+      - name: commander
+        agent: incident-commander
+        prompt: |
+          An incident has been reported. Gather initial context and assign investigation tasks.
+          
+          Start by asking:
+          - What error or symptom was observed?
+          - When did it start?
+          - What systems are affected?
+          
+          Then assign at least two investigation paths to specialists.
+      - name: recent-changes
+        skills: [incident-triage]
+        prompt: |
+          Review recent changes to identify potential triggers.
+          
+          Check:
+          - Commits in last 24-48 hours
+          - Deployments or configuration changes
+          - Dependency updates
+          
+          Report: which changes could be related, with confidence level.
+  - name: Deep Investigation
+    iterations: 2
+    roles:
+      - name: commander
+        agent: incident-commander
+        prompt: |
+          Synthesize findings from specialists. Update incident picture.
+          
+          If root cause identified:
+          - Propose containment actions
+          - Recommend fix approach
+          
+          If still investigating:
+          - Assign additional investigation tasks
+          - Flag if escalation needed
+      - name: app-layer
+        skills: [incident-triage]
+        prompt: |
+          Investigate application layer: code paths, error handling, business logic.
+          
+          Focus on:
+          - Error messages and stack traces
+          - Recent code changes in affected areas
+          - Request patterns that trigger issue
+          
+          Report: findings with evidence, confidence level.
+      - name: infra-layer
+        skills: [incident-triage]
+        prompt: |
+          Investigate infrastructure layer: servers, containers, networking, resources.
+          
+          Focus on:
+          - Resource utilization (CPU, memory, disk)
+          - Network connectivity and latency
+          - Container/pod status
+          - Configuration drift
+          
+          Report: findings with evidence, confidence level.
+      - name: data-layer
+        skills: [incident-triage]
+        prompt: |
+          Investigate data layer: databases, caches, storage.
+          
+          Focus on:
+          - Query performance and errors
+          - Connection pool status
+          - Data consistency issues
+          - Cache invalidation problems
+          
+          Report: findings with evidence, confidence level.
+  - name: Resolution
+    iterations: 1
+    roles:
+      - name: commander
+        agent: incident-commander
+        prompt: |
+          Final synthesis. Confirm containment and propose post-incident actions.
+          
+          Summarize:
+          - Root cause (if identified)
+          - Containment actions taken
+          - Recommended permanent fix
+          - Post-incident review items
+          
+          Ask human to confirm incident can be marked resolved.
+tools: ["*"]
+contexts:
+  - { path: "git_history" }

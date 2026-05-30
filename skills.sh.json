@@ -1,0 +1,20 @@
+{
+	"$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+	"groupings": [
+		{
+			"title": "Testing",
+			"description": "Skills for writing, reviewing, and diagnosing automated tests at all scopes.",
+			"skills": ["auto-test", "unit-test", "integration-test", "e2e-test", "contract-test", "performance-test"]
+		},
+		{
+			"title": "Project Setup",
+			"description": "Skills for initializing repositories and configuring AI assistant tools.",
+			"skills": ["repo-init", "ai-config"]
+		},
+		{
+			"title": "Incident Response",
+			"description": "Skills for triaging and resolving production incidents.",
+			"skills": ["incident-triage"]
+		}
+	]
+}

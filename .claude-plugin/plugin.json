@@ -1,0 +1,24 @@
+{
+	"name": "feima-awesome-harness",
+	"description": "Core harness library for Claude Code: incident triage, code review, and orchestration flows",
+	"version": "0.1.0",
+	"author": {
+		"name": "feima",
+		"url": "https://github.com/feima"
+	},
+	"homepage": "https://github.com/feima/awesome-harness",
+	"repository": "https://github.com/feima/awesome-harness",
+	"license": "MIT",
+	"keywords": [
+		"flows",
+		"skills",
+		"agents",
+		"incident",
+		"triage",
+		"orchestration",
+		"ai-assisted"
+	],
+	"skills": "./skills/",
+	"agents": "./agents/",
+	"hooks": "./hooks/hooks-claude.json"
+}
