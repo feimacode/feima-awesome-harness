@@ -5,10 +5,10 @@
 	"author": {
 		"name": "feima",
 		"email": "feima@example.com",
-		"url": "https://github.com/feima"
+		"url": "https://github.com/feimacode"
 	},
-	"homepage": "https://github.com/feima/awesome-harness",
-	"repository": "https://github.com/feima/awesome-harness",
+	"homepage": "https://github.com/feimacode/feima-awesome-harness",
+	"repository": "https://github.com/feimacode/feima-awesome-harness",
 	"license": "MIT",
 	"keywords": [
 		"incident-triage",
@@ -34,7 +34,7 @@
 			"Help me triage this incident",
 			"Run a code review on my changes"
 		],
-		"websiteURL": "https://github.com/feima/awesome-harness",
+		"websiteURL": "https://github.com/feimacode/feima-awesome-harness",
 		"privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
 		"termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
 		"brandColor": "#3B82F6",

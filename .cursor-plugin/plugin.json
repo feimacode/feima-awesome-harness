@@ -6,10 +6,10 @@
 	"author": {
 		"name": "feima",
 		"email": "feima@example.com",
-		"url": "https://github.com/feima"
+		"url": "https://github.com/feimacode"
 	},
-	"homepage": "https://github.com/feima/awesome-harness",
-	"repository": "https://github.com/feima/awesome-harness",
+	"homepage": "https://github.com/feimacode/awesome-harness",
+	"repository": "https://github.com/feimacode/awesome-harness",
 	"license": "MIT",
 	"keywords": [
 		"flows",

@@ -3,7 +3,7 @@
 	"description": "Official feima harness marketplace - flows, skills, agents, and prompts for AI-assisted development",
 	"owner": {
 		"name": "feima",
-		"url": "https://github.com/feima"
+		"url": "https://github.com/feimacode"
 	},
 	"plugins": [
 		{
@@ -13,7 +13,7 @@
 			"source": "./",
 			"author": {
 				"name": "feima",
-				"url": "https://github.com/feima"
+				"url": "https://github.com/feimacode"
 			}
 		}
 	]

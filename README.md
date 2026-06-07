@@ -86,7 +86,7 @@ Flows are the orchestration layer that combines skills and agents into coordinat
 
 ### Model A — Catalog Metadata in Catalog Service
 
-This repository contains **content only** (skills, agents, flows). Catalog metadata lives in the [feima-harness-catalog](https://github.com/feima/harness-catalog) service, not here. This separation:
+This repository contains **content only** (skills, agents, flows). Catalog metadata lives in the [feima-harness-catalog](https://github.com/feimacode/harness-catalog) service, not here. This separation:
 
 - Keeps content repos focused on content
 - Makes catalog discovery a single source of truth
@@ -177,7 +177,7 @@ The catalog service aggregates entries from this repo and community contribution
 
 ### Adding Flows
 
-1. Create `flows/<flow-name>.flow.yaml` following the [flow schema](https://github.com/feima/copilot-ai-flow/blob/main/schemas/flow.schema.json)
+1. Create `flows/<flow-name>.flow.yaml` following the [flow schema](https://github.com/feimacode/copilot-ai-flow/blob/main/schemas/flow.schema.json)
 
 2. Reference existing skills and agents by name
 
@@ -195,9 +195,9 @@ The catalog service aggregates entries from this repo and community contribution
 
 | Project | Purpose |
 |---------|---------|
-| [feima-harness-catalog](https://github.com/feima/harness-catalog) | Central catalog aggregation service |
-| [copilot-ai-flow](https://github.com/feima/copilot-ai-flow) | `@flow` VS Code extension — orchestration runtime |
-| [CATALOG_ECOSYSTEM.md](https://github.com/feima/copilot-ai-flow/blob/main/docs/CATALOG_ECOSYSTEM.md) | Architecture documentation |
+| [feima-harness-catalog](https://github.com/feimacode/harness-catalog) | Central catalog aggregation service |
+| [copilot-ai-flow](https://github.com/feimacode/copilot-ai-flow) | `@flow` VS Code extension — orchestration runtime |
+| [CATALOG_ECOSYSTEM.md](https://github.com/feimacode/copilot-ai-flow/blob/main/docs/CATALOG_ECOSYSTEM.md) | Architecture documentation |
 
 ## License
 
