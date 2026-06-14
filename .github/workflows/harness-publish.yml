@@ -1,0 +1,33 @@
+name: Publish to Harness
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'skills/**'
+      - 'prompts/**'
+      - 'agents/**'
+      - 'flows/**'
+      - 'marketplace.json'
+      - 'skills.sh.json'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish harness items as Gists
+        uses: feimacode/feima-harness-catalog@v1
+        with:
+          provider: feima-awesome-harness
+          gist_token: ${{ secrets.GIST_TOKEN }}
+
+      - name: Commit harness state and catalog
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .harness-state.json catalog.json
+          git commit -m 'Update harness state and catalog' || echo 'No changes to commit'
+          git push
