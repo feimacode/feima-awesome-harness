@@ -27,10 +27,10 @@ jobs:
           gist_token: ${{ secrets.GIST_TOKEN }}
           github_token: ${{ secrets.GIST_TOKEN }}
 
-      - name: Commit harness state and catalog
+      - name: Commit harness state
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .harness-state.json catalog.json
-          git commit -m 'Update harness state and catalog' || echo 'No changes to commit'
+          git add .harness-state.json
+          git commit -m 'Update harness state' || echo 'No changes to commit'
           git push
