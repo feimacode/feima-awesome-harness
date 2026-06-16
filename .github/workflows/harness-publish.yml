@@ -23,6 +23,7 @@ jobs:
         with:
           provider: feima-awesome-harness
           gist_token: ${{ secrets.GIST_TOKEN }}
+          github_token: ${{ secrets.GIST_TOKEN }}
 
       - name: Commit harness state and catalog
         run: |
