@@ -1,0 +1,122 @@
+{
+	"skills": {
+		"ai-config": {
+			"gistId": "947b7e16acd32f32f480863d265892d6",
+			"contentHash": "43114b72c9d0bdb9fc30e1b850556278e1cd30cacced83eca511ff32f178be4e",
+			"description": "AI Config Skill — Detect, create, sync, and drift-check AI assistant configuration files in a repo",
+			"publishedAt": "2026-06-20T04:27:17.348Z"
+		},
+		"auto-test": {
+			"gistId": "ac42d663a47603412aef2c0ca7ed5ce9",
+			"contentHash": "71922f5e9d73be52efc72fc03b3b59eeb65ba0428825ad98ec49c19991d970c1",
+			"description": "Auto-Test: Universal Testing Principles — Core principles that apply to every automated test regardless of scope (unit, in",
+			"publishedAt": "2026-06-20T04:27:18.042Z"
+		},
+		"contract-test": {
+			"gistId": "fd1648c7298e6eeba72ca14c89d0a9f9",
+			"contentHash": "e73df4246fa1e9328db5b5bd6de2c936fe0124a7daed32d68accdab5540bfac4",
+			"description": "Contract Test — A contract test verifies the **agreement** between a consumer and a provider — n",
+			"publishedAt": "2026-06-20T04:27:18.749Z"
+		},
+		"e2e-test": {
+			"gistId": "552f2f39c8e06eed72b6bf6df50edbbc",
+			"contentHash": "40b482b5e4fe44d96183605d65a980bcdc7a6cb905a6c2515f2c8ecb547664f1",
+			"description": "E2E Test — An end-to-end test verifies that a complete user-facing flow works correctly thr",
+			"publishedAt": "2026-06-20T04:27:19.491Z"
+		},
+		"incident-triage": {
+			"gistId": "7ac2562733938c7a49c67e6e13f7abe8",
+			"contentHash": "9a76cdd0895b8898992d9592fad5848c0129b4fd68ebe74ccc44b1e3e0062cfc",
+			"description": "Incident Triage — A skill for systematically triaging production incidents.",
+			"publishedAt": "2026-06-20T04:27:20.227Z"
+		},
+		"integration-test": {
+			"gistId": "a41545b61872870646676919f107a596",
+			"contentHash": "a3af2b73a911aeb343b79876d3310e233f2d3227eb0751451dd64bd610e3cac3",
+			"description": "Integration Test — An integration test verifies that two or more components work correctly when wir",
+			"publishedAt": "2026-06-20T04:27:20.962Z"
+		},
+		"performance-test": {
+			"gistId": "a0f6beedf5a1e1d6eb4edf2aaeec4d83",
+			"contentHash": "50e78b12f75c296c2a26f3bec89a062e308de750c872fed2adbfc6cb0090ae06",
+			"description": "Performance Test — A performance test measures non-functional properties — latency, throughput, con",
+			"publishedAt": "2026-06-20T04:27:21.651Z"
+		},
+		"repo-init": {
+			"gistId": "961ce234af048da7b7b900f910d71f81",
+			"contentHash": "84ac1113acdf402d2355d21de9ab468c727e5a9f31a575d9452314b22eec3738",
+			"description": "Repo Init Wizard — Guide the user through a structured interview to establish all foundational deci",
+			"publishedAt": "2026-06-20T04:27:22.469Z"
+		},
+		"unit-test": {
+			"gistId": "eec697280dda19b3d09f64a9cd8ac4ac",
+			"contentHash": "4686afddf5fcd53422ea3e670240b7d4bc232e6fe63b8b618dc9e276338ff232",
+			"description": "Unit Test — A unit test verifies the behaviour of one unit (function, class, or module) in c",
+			"publishedAt": "2026-06-20T04:27:23.200Z"
+		}
+	},
+	"prompts": {
+		"status-update": {
+			"gistId": "5c2064724a5964e69a2c969ff61b28c1",
+			"contentHash": "c87c3905a4e39644edc0dd424f4ea421bd799a2d12f53857343f67d8e5c6c591",
+			"description": "Status Update — A prompt template for incident status updates.",
+			"publishedAt": "2026-06-20T04:27:23.880Z"
+		},
+		"incident-commander": {
+			"gistId": "588e8671e22ee14b0328d9a479bc680d",
+			"contentHash": "0a40d1fdc5d99fa8e8180c9d3b3ae4efcab50f64b1570cee25cfe672079d56e8",
+			"description": "Incident Commander — An agent role for coordinating incident response across multiple specialists.",
+			"publishedAt": "2026-06-20T04:27:24.567Z"
+		}
+	},
+	"flows": {
+		"backlog-ranking": {
+			"gistId": "3e0740fc7edac7dd51242eaa361f1f0e",
+			"contentHash": "112cf9a1e5708b1a5ff37468f7dafb8fa92083bc96a22788eb093affda5a6f5f",
+			"description": "Backlog Ranking — Priority ordering with value, risk, dependency, and effort dimensions",
+			"publishedAt": "2026-06-20T04:27:25.268Z"
+		},
+		"code-review": {
+			"gistId": "3bd8def742137cd4da057c496aa59c3a",
+			"contentHash": "d8a358e0065082fc06fd38de54396a92fe915aee1be8be4c8615e9d16b277d10",
+			"description": "Code Review Discussion — Multi-perspective code review with separate lenses for correctness, security, an",
+			"publishedAt": "2026-06-20T04:27:25.951Z"
+		},
+		"pr-description": {
+			"gistId": "ada123afd717b6d7f639e3a0e5d13826",
+			"contentHash": "8df93aeeed290e0838df1d96b2e9a9a45159610115055cbf070f155661ae8f5a",
+			"description": "PR Description Generator — Automated PR description generation from diff analysis",
+			"publishedAt": "2026-06-20T04:27:26.740Z"
+		},
+		"sdd-openspec-full-cycle": {
+			"gistId": "fc1616227d3e927bb6286c04ec068c53",
+			"contentHash": "b34f66c7f39caf2e129e19ea39606deaaa2aaa7f376fdc123c83b7286862beed",
+			"description": "SDD + OpenSpec Full Cycle — End-to-end pipeline: one human gate → staged SDD specification with LLM critics ",
+			"publishedAt": "2026-06-20T04:27:27.601Z"
+		},
+		"sdd-spec-kit": {
+			"gistId": "43a740e307584ca4617713ddb5fd3cea",
+			"contentHash": "7fa4264399b186f086171140f988b6099dbb96add66810d6d7d5a32f46a645eb",
+			"description": "SDD Spec-Kit Driven Development — Agentic SDD pipeline: staged execution with LLM auto-review, from raw idea to im",
+			"publishedAt": "2026-06-20T04:27:28.386Z"
+		},
+		"story-estimation": {
+			"gistId": "09998ee79ccd39035fea21747e58d62b",
+			"contentHash": "08f228cdbda7d611fedb2c42888486ce11086a1c1fa7918a27c040a23f59e975",
+			"description": "Sprint Story Estimation — Virtual scrum team story sizing with perspectives from Product Owner, Dev Lead, ",
+			"publishedAt": "2026-06-20T04:27:29.214Z"
+		},
+		"test-writing": {
+			"gistId": "7a2aa48fd4df01e5c018ffa9e74bc00c",
+			"contentHash": "e05f1e8d2439b704bce0f998a42974da4daeed189c7cd906faef6305aa820872",
+			"description": "Test Writing — Comprehensive test generation with adversarial edge case hunting",
+			"publishedAt": "2026-06-20T04:27:29.926Z"
+		},
+		"war-room-triage": {
+			"gistId": "380b2885ad13ffe1a986971befe71613",
+			"contentHash": "dccdde60533a98d3557a98c0d32a30fc6df47fd61f7f22eddcffe711bf0d1acf",
+			"description": "War-Room Triage — Incident response with human-gate triage, parallel investigation, and resolution",
+			"publishedAt": "2026-06-20T04:27:30.741Z"
+		}
+	}
+}
