@@ -117,6 +117,12 @@
 			"contentHash": "dccdde60533a98d3557a98c0d32a30fc6df47fd61f7f22eddcffe711bf0d1acf",
 			"description": "War-Room Triage — Incident response with human-gate triage, parallel investigation, and resolution",
 			"publishedAt": "2026-06-20T04:27:30.741Z"
+		},
+		"propose-review-moderate-apply": {
+			"gistId": "ebbec3eaca7a7d0c01bd07ac8985b2ba",
+			"contentHash": "df687c1612c9cf68abb4930cf05b3497958b0fa91a46875e4eb0103ae7e395f2",
+			"description": "Propose-Review-Moderate-Apply — Refine a proposal through iterative cycles of proposal, review, and moderation, ",
+			"publishedAt": "2026-07-04T13:05:24.573Z"
 		}
 	}
 }
