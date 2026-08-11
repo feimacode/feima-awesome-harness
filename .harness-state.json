@@ -53,6 +53,12 @@
 			"contentHash": "4686afddf5fcd53422ea3e670240b7d4bc232e6fe63b8b618dc9e276338ff232",
 			"description": "Unit Test — A unit test verifies the behaviour of one unit (function, class, or module) in c",
 			"publishedAt": "2026-06-20T04:27:23.200Z"
+		},
+		"solution-feasibility-study": {
+			"gistId": "31036747abd943e6081a26ee8b6f6b10",
+			"contentHash": "c0bae5f271e51897e9dbf789fc2ebbd75d5fa959afe2752c2942984fc3e87b79",
+			"description": "Solution Feasibility Study — Take a software solution idea from a one-line pitch to a grounded build/pivot/no",
+			"publishedAt": "2026-08-11T09:03:59.382Z"
 		}
 	},
 	"prompts": {
