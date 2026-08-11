@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "additionalDirectories": [
+      "../feima-harness-catalog",
+      "../feima-copilot-ai-flow",
+      "../feima/feima-copilot-llms-extension"
+    ]
+  }
+}
