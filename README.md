@@ -34,11 +34,11 @@ Install via your preferred platform:
 
 | Platform | Install Command | What You Get |
 |----------|-----------------|--------------|
-| **Claude Code** | `claude plugin marketplace add feima/awesome-harness` | Skills + agents + hooks |
-| **Copilot CLI** | `copilot plugin marketplace add feima/awesome-harness` | Skills + agents + hooks |
-| **Cursor** | `cursor plugin add feima/awesome-harness` | Skills + agents + commands |
-| **Codex** | `codex plugin add feima/awesome-harness` | Skills + interface |
-| **Universal** | `npx skills add feima/awesome-harness` | Skills only (cross-platform) |
+| **Claude Code** | `claude plugin marketplace add feimacode/feima-awesome-harness` | Skills + agents + hooks |
+| **Copilot CLI** | `copilot plugin marketplace add feimacode/feima-awesome-harness` | Skills + agents + hooks |
+| **Cursor** | `cursor plugin add feimacode/feima-awesome-harness` | Skills + agents + commands |
+| **Codex** | `codex plugin add feimacode/feima-awesome-harness` | Skills + interface |
+| **Universal** | `npx skills add feimacode/feima-awesome-harness` | Skills only (cross-platform) |
 
 ## Quick Start
 
@@ -72,7 +72,7 @@ Prompts are templates you fill in or ask the AI to fill in:
 
 ### Content-Only Repository
 
-This repository contains **content only** (skills, agents, flows, prompts). Catalog metadata lives in the [feima-harness-catalog](https://github.com/feimacode/harness-catalog) service. This separation:
+This repository contains **content only** (skills, agents, flows, prompts). Catalog metadata lives in the [feima-harness-catalog](https://github.com/feimacode/feima-harness-catalog) service. This separation:
 
 - Keeps content repos focused on content
 - Makes catalog discovery a single source of truth
@@ -80,7 +80,7 @@ This repository contains **content only** (skills, agents, flows, prompts). Cata
 
 ### Flat, Single-Unit Distribution
 
-The whole repository is one installable unit. Install `feima/awesome-harness` and get all official content. Simpler than plugin-based structures where each harness is a separate package.
+The whole repository is one installable unit. Install `feimacode/feima-awesome-harness` and get all official content. Simpler than plugin-based structures where each harness is a separate package.
 
 ### Multi-Platform Manifests
 
@@ -168,7 +168,7 @@ feima-awesome-harness/
 
 ### Adding Flows
 
-1. Create `flows/<flow-name>.flow.yaml` following the [flow schema](https://github.com/feimacode/copilot-ai-flow/blob/main/schemas/flow.schema.json)
+1. Create `flows/<flow-name>.flow.yaml` following the [flow schema](https://github.com/feimacode/feima-copilot-ai-flow/blob/main/schemas/flow.schema.json)
 
 2. Reference existing skills and agents by name
 
@@ -188,8 +188,8 @@ feima-awesome-harness/
 
 | Project | Purpose |
 |---------|---------|
-| [feima-harness-catalog](https://github.com/feimacode/harness-catalog) | Central catalog aggregation service — indexes harnesses from this repo and community contributions |
-| [copilot-ai-flow](https://github.com/feimacode/copilot-ai-flow) | `@flow` VS Code extension — a runtime that can execute flows defined in this repository |
+| [feima-harness-catalog](https://github.com/feimacode/feima-harness-catalog) | Central catalog aggregation service — indexes harnesses from this repo and community contributions |
+| [feima-copilot-ai-flow](https://github.com/feimacode/feima-copilot-ai-flow) | `@flow` VS Code extension — a runtime that can execute flows defined in this repository |
 
 ## License
 
