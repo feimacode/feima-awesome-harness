@@ -17,6 +17,11 @@
 			"skills": ["incident-triage"]
 		},
 		{
+			"title": "Ideation",
+			"description": "Skills for discovering and shaping project ideas before evaluating or building them.",
+			"skills": ["project-idea-brainstorm"]
+		},
+		{
 			"title": "Product Strategy",
 			"description": "Skills for evaluating and researching software solution ideas before you build.",
 			"skills": ["solution-feasibility-study"]

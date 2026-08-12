@@ -44,5 +44,6 @@ Every claim (pricing, star counts, license, activity dates) must trace to someth
 
 ## Related Skills
 
+- [project-idea-brainstorm](project-idea-brainstorm.md) — find an idea to feed into this skill if you don't have one yet
 - [repo-init](repo-init.md) — scaffold a new repository once a build decision is made
 - [ai-config](ai-config.md) — set up AI assistant configs after choosing to build (or fork) a project
