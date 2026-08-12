@@ -12,7 +12,7 @@ This repository is the official collection. It ships as a single installable uni
 
 | Category | Count | Description | Docs |
 |----------|-------|-------------|------|
-| **Skills** | 10 | Reusable knowledge and instruction files that guide AI behaviour for specific tasks | [docs/skills/](docs/skills/) |
+| **Skills** | 11 | Reusable knowledge and instruction files that guide AI behaviour for specific tasks | [docs/skills/](docs/skills/) |
 | **Agents** | 1 | Role definitions with responsibilities, tone, and interaction patterns | [docs/agents.md](docs/agents.md) |
 | **Flows** | 1 | Multi-role orchestration patterns that combine skills and agents into coordinated workflows | [docs/flows.md](docs/flows.md) |
 | **Prompts** | 1 | Reusable templates for consistent, structured AI output | [docs/prompts.md](docs/prompts.md) |
@@ -24,6 +24,7 @@ This repository is the official collection. It ships as a single installable uni
 | **Testing** | [auto-test](docs/skills/auto-test.md) · [unit-test](docs/skills/unit-test.md) · [integration-test](docs/skills/integration-test.md) · [e2e-test](docs/skills/e2e-test.md) · [contract-test](docs/skills/contract-test.md) · [performance-test](docs/skills/performance-test.md) |
 | **Project Setup** | [repo-init](docs/skills/repo-init.md) · [ai-config](docs/skills/ai-config.md) |
 | **Incident Response** | [incident-triage](docs/skills/incident-triage.md) |
+| **Ideation** | [project-idea-brainstorm](docs/skills/project-idea-brainstorm.md) |
 | **Product Strategy** | [solution-feasibility-study](docs/skills/solution-feasibility-study.md) |
 
 See [docs/skills/](docs/skills/) for detailed documentation on each skill.
@@ -120,6 +121,7 @@ feima-awesome-harness/
 │   ├── ai-config/SKILL.md
 │   │   └── references/        ← Adapter + drift signal docs
 │   ├── incident-triage/SKILL.md
+│   ├── project-idea-brainstorm/SKILL.md
 │   └── solution-feasibility-study/SKILL.md
 │       └── references/        ← Research playbook, license guide, report template
 ├── agents/
