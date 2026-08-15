@@ -24,7 +24,17 @@
 		{
 			"title": "Product Strategy",
 			"description": "Skills for evaluating and researching software solution ideas before you build.",
-			"skills": ["solution-feasibility-study"]
+			"skills": ["solution-feasibility-study", "solution-candidate-design"]
+		},
+		{
+			"title": "Audience Research",
+			"description": "Skills for researching how a target audience behaves, talks, and reacts online, once you have (or are validating) an idea.",
+			"skills": ["audience-behavior-study"]
+		},
+		{
+			"title": "Codebase Research",
+			"description": "Skills for extracting the idea, architecture, and implementation details of an existing GitHub or internal repo.",
+			"skills": ["codebase-deep-dive"]
 		}
 	]
 }

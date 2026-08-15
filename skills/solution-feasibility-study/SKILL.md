@@ -101,7 +101,11 @@ If Step 2 found any GitHub repos classified as **Forkable** (permissive license,
 **Suggested next step:** `gh repo fork org/name --clone` (or `git clone` + detach from upstream) to use as a starting point instead of building from zero.
 ```
 
-For each fork candidate, note *why* it's a fit (feature overlap with the idea, maintenance health) and *what's missing* (the gap the user would still need to build) so forking is framed as a head start, not a finished product.
+For each fork candidate, note *why* it's a fit (feature overlap with the idea, maintenance health) and *what's missing* (the gap the user would still need to build) so forking is framed as a head start, not a finished product. If the user wants a full implementation-level look at a specific fork candidate before committing, suggest `codebase-deep-dive`.
+
+#### Handoff
+
+If the overall call is **Strong Go** or **Conditional Go**, suggest `audience-behavior-study` as the natural next step (e.g. "run `/audience-behavior-study` to go deep on how this target user actually behaves online — pain points, language, and channels — before you start building or writing copy"). It can reuse this report's idea summary and target user instead of re-asking. If the user wants to skip straight to build options, `solution-candidate-design` can also reuse this report's fork candidates and technical-feasibility findings directly.
 
 ---
 
@@ -111,5 +115,5 @@ For each fork candidate, note *why* it's a fit (feature overlap with the idea, m
 - **Confirm inferred defaults.** If you inferred the target user or tech stack instead of asking, say so plainly before moving on.
 - **License claims are not legal advice.** Always include this disclaimer in the report's Fork Candidates section: license classification here is a starting point, not legal counsel — the user should verify the actual `LICENSE` file (and check for trademark/branding restrictions, dual licensing, or CLA requirements) before shipping anything derived from a fork commercially.
 - **Don't fabricate research.** No invented star counts, pricing, license names, or dates. Mark anything unverifiable as such rather than smoothing it over.
-- **Stay in scope.** This skill produces a decision-support report, not product code, not a full business plan, not a legal opinion. If the user wants to proceed to building, hand off — e.g. suggest `repo-init` for scaffolding a new repo, or note the chosen fork candidate as the starting point.
+- **Stay in scope.** This skill produces a decision-support report, not product code, not a full business plan, not a legal opinion. If the user wants to proceed to building, hand off — e.g. suggest `solution-candidate-design` to turn the fork candidates and technical-feasibility findings into concrete, comparable build options, or `repo-init` directly if the user already knows their direction. If the call is Go/Conditional Go, also suggest `audience-behavior-study` for a deeper pass on target-user pain points, language, and channels before building or writing copy.
 - **Respect the stated constraints.** Technical feasibility and go-to-market recommendations should match the team size and time budget from Step 1 — don't recommend a GTM motion or architecture that assumes a funded team when the user said "solo, weekends."
