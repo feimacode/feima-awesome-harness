@@ -45,5 +45,8 @@ Every claim (pricing, star counts, license, activity dates) must trace to someth
 ## Related Skills
 
 - [project-idea-brainstorm](project-idea-brainstorm.md) — find an idea to feed into this skill if you don't have one yet
+- [audience-behavior-study](audience-behavior-study.md) — on a Go/Conditional Go call, go deeper on the target user's real pain points, language, and channels
+- [solution-candidate-design](solution-candidate-design.md) — turn this report's fork candidates and technical findings into concrete, comparable build options
+- [codebase-deep-dive](codebase-deep-dive.md) — go deep on a specific fork candidate's architecture and implementation before committing to it
 - [repo-init](repo-init.md) — scaffold a new repository once a build decision is made
 - [ai-config](ai-config.md) — set up AI assistant configs after choosing to build (or fork) a project

@@ -10,6 +10,8 @@ argument-hint: "Optional: pass a specific section to jump to (repo-structure, te
 
 Guide the user through a structured interview to establish all foundational decisions for a new repository. At the end, produce a reviewed summary and offer to generate config files, instructions, and CI/CD scaffolding.
 
+If the user just came from `solution-candidate-design` with a chosen "Build from Scratch" candidate, ask for (or accept if pasted) its stack/architecture details and pre-fill the matching Section 2 answers before starting the interview — announce what was pre-filled so the user can correct it.
+
 ## Platform Adaptation
 
 Before starting the interview, load the reference file for the current agent environment and follow its tool guidance:

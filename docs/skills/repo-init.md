@@ -58,3 +58,5 @@ The wizard adapts its interaction style to the current AI platform (Copilot, Cod
 ## Related Skills
 
 - [ai-config](ai-config.md) — Managing AI assistant config files after repo setup
+- [solution-candidate-design](solution-candidate-design.md) — Compare build-vs-fork architecture options before running this wizard, if the stack isn't decided yet
+- [codebase-deep-dive](codebase-deep-dive.md) — Learn the stack/architecture of a repo you're borrowing patterns from before pre-filling this wizard's answers

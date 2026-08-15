@@ -12,7 +12,7 @@ This repository is the official collection. It ships as a single installable uni
 
 | Category | Count | Description | Docs |
 |----------|-------|-------------|------|
-| **Skills** | 11 | Reusable knowledge and instruction files that guide AI behaviour for specific tasks | [docs/skills/](docs/skills/) |
+| **Skills** | 14 | Reusable knowledge and instruction files that guide AI behaviour for specific tasks | [docs/skills/](docs/skills/) |
 | **Agents** | 1 | Role definitions with responsibilities, tone, and interaction patterns | [docs/agents.md](docs/agents.md) |
 | **Flows** | 1 | Multi-role orchestration patterns that combine skills and agents into coordinated workflows | [docs/flows.md](docs/flows.md) |
 | **Prompts** | 1 | Reusable templates for consistent, structured AI output | [docs/prompts.md](docs/prompts.md) |
@@ -25,7 +25,9 @@ This repository is the official collection. It ships as a single installable uni
 | **Project Setup** | [repo-init](docs/skills/repo-init.md) · [ai-config](docs/skills/ai-config.md) |
 | **Incident Response** | [incident-triage](docs/skills/incident-triage.md) |
 | **Ideation** | [project-idea-brainstorm](docs/skills/project-idea-brainstorm.md) |
-| **Product Strategy** | [solution-feasibility-study](docs/skills/solution-feasibility-study.md) |
+| **Product Strategy** | [solution-feasibility-study](docs/skills/solution-feasibility-study.md) · [solution-candidate-design](docs/skills/solution-candidate-design.md) |
+| **Audience Research** | [audience-behavior-study](docs/skills/audience-behavior-study.md) |
+| **Codebase Research** | [codebase-deep-dive](docs/skills/codebase-deep-dive.md) |
 
 See [docs/skills/](docs/skills/) for detailed documentation on each skill.
 
@@ -122,8 +124,14 @@ feima-awesome-harness/
 │   │   └── references/        ← Adapter + drift signal docs
 │   ├── incident-triage/SKILL.md
 │   ├── project-idea-brainstorm/SKILL.md
-│   └── solution-feasibility-study/SKILL.md
-│       └── references/        ← Research playbook, license guide, report template
+│   ├── solution-feasibility-study/SKILL.md
+│   │   └── references/        ← Research playbook, license guide, report template
+│   ├── audience-behavior-study/SKILL.md
+│   │   └── references/        ← Research playbook, report template
+│   ├── solution-candidate-design/SKILL.md
+│   │   └── references/        ← Architecture patterns, report template
+│   └── codebase-deep-dive/SKILL.md
+│       └── references/        ← Extraction checklist, report template
 ├── agents/
 │   └── incident-commander.agent.md
 ├── flows/

@@ -29,3 +29,6 @@ Trend claims and "founders are discussing this" claims must trace to an actual s
 ## Related Skills
 
 - [solution-feasibility-study](solution-feasibility-study.md) — take any idea from this brainstorm to a researched go/no-go recommendation
+- [audience-behavior-study](audience-behavior-study.md) — once feasibility gives a Go, go deeper on the target user's real pain points, language, and channels
+- [solution-candidate-design](solution-candidate-design.md) — once an idea is validated, compare concrete build options before scaffolding a repo
+- [codebase-deep-dive](codebase-deep-dive.md) — understand an existing GitHub or internal repo in depth, standalone or as part of evaluating a fork candidate
