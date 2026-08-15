@@ -44,9 +44,9 @@
 		},
 		"repo-init": {
 			"gistId": "961ce234af048da7b7b900f910d71f81",
-			"contentHash": "84ac1113acdf402d2355d21de9ab468c727e5a9f31a575d9452314b22eec3738",
+			"contentHash": "a2a7bff84151efe43798824d56671685f3f40c1940ca2cc0971a3f9b28304227",
 			"description": "Repo Init Wizard — Guide the user through a structured interview to establish all foundational deci",
-			"publishedAt": "2026-06-20T04:27:22.469Z"
+			"publishedAt": "2026-08-15T05:41:13.850Z"
 		},
 		"unit-test": {
 			"gistId": "eec697280dda19b3d09f64a9cd8ac4ac",
@@ -56,15 +56,33 @@
 		},
 		"solution-feasibility-study": {
 			"gistId": "31036747abd943e6081a26ee8b6f6b10",
-			"contentHash": "c0bae5f271e51897e9dbf789fc2ebbd75d5fa959afe2752c2942984fc3e87b79",
+			"contentHash": "921c6f30c39cb2eed1d083d44c92fa3f18d9e7fdc7afdd739a2d452e30428eda",
 			"description": "Solution Feasibility Study — Take a software solution idea from a one-line pitch to a grounded build/pivot/no",
-			"publishedAt": "2026-08-11T09:03:59.382Z"
+			"publishedAt": "2026-08-15T05:41:15.413Z"
 		},
 		"project-idea-brainstorm": {
 			"gistId": "6bb2f20c3dde3db9fe1c03b31316e090",
 			"contentHash": "d8e2cd0bde3a3088d9e227c30eb4bb6a5f569c32676d4fe67cd77daf147878ac",
 			"description": "Project Idea Brainstorm — Help a founder/creator go from \"I want to build something\" to a shortlist of con",
 			"publishedAt": "2026-08-12T10:15:25.984Z"
+		},
+		"audience-behavior-study": {
+			"gistId": "284e3c16e778454a85f59df266381420",
+			"contentHash": "eacbd0116914d49cd033f16831f72c2438e7cb6691cd2f24574ebf372a49524b",
+			"description": "Audience & User Behavior Study — Take an idea's target user from a one-line description to grounded, evidence-bac",
+			"publishedAt": "2026-08-15T05:41:12.264Z"
+		},
+		"codebase-deep-dive": {
+			"gistId": "95664a8573d80e22c1e15fc05d9245ca",
+			"contentHash": "09558ee02f3b02ca911064d55e1a05d7e40de284cc9cfe844e0db0b1b5283342",
+			"description": "Codebase Deep Dive — Take an existing project — public on GitHub, or an internal/private repo the use",
+			"publishedAt": "2026-08-15T05:41:13.079Z"
+		},
+		"solution-candidate-design": {
+			"gistId": "bdbabda76017a792fce3b91fcc8f00c1",
+			"contentHash": "66649faee0e16428a29a8eb5e74db0dfa52c0a9075ff5e8ade82ca076f3e68f2",
+			"description": "Solution Candidate Design — Take a validated (or validating) idea and produce a small set of concrete, compa",
+			"publishedAt": "2026-08-15T05:41:14.801Z"
 		}
 	},
 	"prompts": {
